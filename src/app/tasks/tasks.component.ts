@@ -8,7 +8,6 @@ import { TasksService } from './tasks.service';
   selector: 'app-tasks',
   templateUrl: './tasks.component.html',
   styleUrl: './tasks.component.scss',
-  imports: [TaskComponent, NewTaskComponent]
 })
 export class TasksComponent {
   @Input({ required: true }) userId!: string;
