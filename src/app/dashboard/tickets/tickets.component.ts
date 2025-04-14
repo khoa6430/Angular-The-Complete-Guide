@@ -10,4 +10,4 @@ import { NewTicketComponent } from './new-ticket/new-ticket.component';
 })
 export class TicketsComponent {
 
-}
+}2
